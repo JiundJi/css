@@ -1,0 +1,69 @@
+body{
+    min-height: 1341px;
+    background-color: #000000;
+}
+
+/*background color*/
+.logged-in,
+.gutter-md-spacious{
+    background-color: #000000;
+}
+
+.Header{
+    background-color: #000000;
+}
+.site-subnav{
+    background-image: linear-gradient(to bottom, #000005, #050A30);
+}
+
+.js-repo-nav{
+    background-color: #000;
+}
+
+/*flexbox-readjusting*/
+.team-left-column {
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    background-image: linear-gradient(to top left, #561496, #1D2791);
+}
+
+.flex-auto>.d-md-flex>.team-left-column {
+    background-image: none !important;
+}
+
+.flex-auto>.d-md-flex {
+    margin-right: -32px !important;
+    margin-left: -32px !important;
+}
+
+.border-bottom {
+    border-bottom: 0px !important;
+}
+
+/*navbar icons & links*/
+.Header-link{
+    color: #fff;
+}
+
+/*username up left corner*/
+.css-truncate{
+    color: #fff;
+}
+
+.js-profile-timeline-year-list {
+    background-color: #000000;
+}
+
+/*add border to project names*/
+.wb-break-word {
+    border-left: 2px #adbac7 groove;
+    padding-left: 10px;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    background-color: #1c1c1c;
+}
+::-webkit-scrollbar-thumb {
+    background: #000008;
+}
