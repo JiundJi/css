@@ -1,0 +1,99 @@
+/*dunklen hintergrund*/
+body,
+.d-print-none,
+.fixed-top,
+#page-footer{
+    background-color: #23272a !important;
+    color: #fff !important;
+}
+.form-control{
+    background-color: #23272a;
+}
+.form-control:active {
+    background-color: #2c2f33;
+    color: #99aab5;
+}
+
+/*hervorheben der blöcke*/
+.card-body,
+.list-group-item,
+.card-header,
+.dropdown-item,
+.dropdown-menu{
+    background-color: #2c2f33;
+    color: #99aab5;
+}
+.menu-action:hover{
+    background-color: #7289da;    
+}
+
+/*farbänderung der listenelemente auf der linken seite*/
+.list-group-item.active {
+    background-color: #7289da;
+}
+.list-group-item:hover{
+    background-color: #23272a;
+    color: #fff;
+}
+
+/*link "virtual Luo", sidenav icon*/
+.nav-link,
+.btn{
+    background-color: #23272a !important;
+    color: #99aab5 !important;
+    border: none !important;
+}
+.btn:hover{
+    transition-property: #2c2f33 !important;
+    transition-duration: 0.4s !important;
+}
+
+/*icons halt*/
+.icon {
+    color: #99aab5;
+}
+.icon:hover{
+    color: #7289da;
+}
+
+/*navbar*/
+.site-name {
+    background-color: #2c2f33;
+    color: #fff;
+}
+
+/*entfernung der outlines*/
+.block, .card {
+    border: none;
+}
+
+/*neuigkeiten auf home*/
+#region-main {
+    background-color: #2c2f33;
+    color: #fff;
+}
+
+/*links*/
+a {
+    background-color: inherit;
+    color: #7289da;
+}
+a:hover {
+    color: #b20000;
+}
+h5>a {
+    background-color: inherit !important;
+}
+
+/*hr halt*/
+hr {
+    border: 1px white solid;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    background-color: #202224;
+}
+::-webkit-scrollbar-thumb {
+    background: #1a1a1a;
+}
