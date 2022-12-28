@@ -1,0 +1,14 @@
+body,
+.player-item,
+.copy-button {
+    background-color: #24273a !important;
+    color: #c29df1 !important;
+}
+    
+#room-name,
+#player-container,
+#homepage-warning,
+#bottom-menu>a {
+    background-color: #131020 !important;
+    color: #f3bce6 !important;
+}
