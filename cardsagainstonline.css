@@ -1,14 +1,42 @@
-body,
-.player-item,
-.copy-button {
-    background-color: #24273a !important;
-    color: #c29df1 !important;
-}
+    body,
+    .player-item,
+    .copy-button{
+        background-color: #24273a !important;
+        color: #c29df1 !important;
+    }
     
-#room-name,
-#player-container,
-#homepage-warning,
-#bottom-menu>a {
-    background-color: #131020 !important;
-    color: #f3bce6 !important;
-}
+    #room-name,
+    #player-container,
+    #homepage-warning,
+    #bottom-menu>a,
+    .player-score-item,
+    .player-item {
+        background-color: #131020 !important;
+        color: #f3bce6 !important;
+    }
+    
+    .player-score-item.disconnected{
+        background-color: #24273a !important;
+        color: #c29df1 !important;
+    }
+    .card {
+        background-color: #c29df1 !important;
+        margin-left: 0px !important;
+    }
+    .black-card {
+        background-color: #131020 !important;
+        margin-left: 0px !important;
+        margin-bottom: 36px;
+    }
+    #tsar-menu>div {
+        color:#f3bce6 !important;
+    }
+    .card>textarea {
+        background-color: #c29df1 !important;
+    }
+    input.white-card-container {
+        background-color:#f3bce6 !important;
+    }
+    #play-content>input {
+        background-color: #f3bce6 !important;
+    }
