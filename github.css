@@ -1,69 +1,77 @@
-body{
-    min-height: 1341px;
-    background-color: #000000;
-}
 
-/*background color*/
-.logged-in,
-.gutter-md-spacious{
-    background-color: #000000;
-}
+    body, html{
+        background-color: #24273a !important;
+    }
 
-.Header{
-    background-color: #000000;
-}
-.site-subnav{
-    background-image: linear-gradient(to bottom, #000005, #050A30);
-}
+    /*background color*/
+    .logged-in,
+    .gutter-md-spacious,
+    .container-xl,
+    .color-bg-default,
+    .flex-auto.col-md-8.col-lg-8.px-3.px-lg-5,
+    #repository-container-header {
+        background-color: #24273a !important;
+    }
 
-.js-repo-nav{
-    background-color: #000;
-}
+    .Header{
+        background-color: #131020;
+        border-bottom: 2px !important;
+        border-bottom-style: solid !important;
+        border-bottom-color: #c29df1 !important;
+    }
+    .site-subnav{
+        background-image: linear-gradient(to bottom, #000005, #050A30);
+    }
 
-/*flexbox-readjusting*/
-.team-left-column {
-    border-right-width: 0px !important;
-    border-bottom-width: 0px !important;
-    background-image: linear-gradient(to top left, #561496, #1D2791);
-}
+    .js-repo-nav{
+        background-color: #24273a
+    }
 
-.flex-auto>.d-md-flex>.team-left-column {
-    background-image: none !important;
-}
+    /*flexbox-readjusting*/
+    .team-left-column.col-md-4.col-lg-3  {
+        border-right-width: 0px !important;
+        border-bottom-width: 0px !important;
+        background-color: #131020 !important;
+        color: #c29df1 !important;
+    }
 
-.flex-auto>.d-md-flex {
-    margin-right: -32px !important;
-    margin-left: -32px !important;
-}
+    .flex-auto>.d-md-flex>.team-left-column {
+        background-image: none !important;
+    }
 
-.border-bottom {
-    border-bottom: 0px !important;
-}
+    .flex-auto>.d-md-flex {
+        margin-right: -32px !important;
+        margin-left: -32px !important;
+    }
 
-/*navbar icons & links*/
-.Header-link{
-    color: #fff;
-}
+    .border-bottom {
+        border-bottom: 0px !important;
+    }
 
-/*username up left corner*/
-.css-truncate{
-    color: #fff;
-}
+    /*navbar icons & links*/
+    .Header-link{
+        color: #fff;
+    }
 
-.js-profile-timeline-year-list {
-    background-color: #000000;
-}
+    /*username up left corner*/
+    .css-truncate{
+        color: #fff;
+    }
 
-/*add border to project names*/
-.wb-break-word {
-    border-left: 2px #adbac7 groove;
-    padding-left: 10px;
-}
+    .js-profile-timeline-year-list {
+        background-color: #24273a
+    }
 
-/*scrollbar*/
-::-webkit-scrollbar {
-    background-color: #1c1c1c;
-}
-::-webkit-scrollbar-thumb {
-    background: #000008;
-}
+    /*add border to project names*/
+    .wb-break-word {
+        border-left: 2px #adbac7 groove;
+        padding-left: 10px;
+    }
+
+    /*scrollbar*/
+    ::-webkit-scrollbar {
+        background-color: #1c1c1c;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #000008;
+    }
