@@ -1,0 +1,105 @@
+    /*body*/
+    ._31N0dvxfpsO6Ur5AKx4O5d,
+    ._3ozFtOe6WpJEMUtxDOIvtU {
+        background-color: #1a1823 !important;
+    }
+    
+    /*post*/
+    .Post {
+        background-color: #24273a !important;
+        border: none !important;
+    }
+    
+    /*text*/
+    h3 {
+        color: #c29df1 !important;
+    }
+    p {
+        color: #f3bce6;
+    }
+
+    /*navbar*/
+    ._2vkeRJojnV7cb9pMlPHy7d {
+        background-color: #131020;
+    }
+
+    /*searchbar*/
+    ._1DeR7_QiQnu2UK0e2dDfYD,
+    ._1K7ubH9z5v9E6C19j2fjQU {
+        background-color: #131020 !important;
+    }
+
+    /*back to top*/
+    ._2iuoyPiKHN3kfOoeIQalDT._10BQ7pjWbeYP63SAPNS8Ts.HNozj_dKjQZ59ZsfEegz8 {
+        background-color: #f3bce6 !important;
+        color:#24273a;
+    }
+
+    ._1YpJV_aDQqujwuofx9-eAX {
+        border-bottom-color: #f3bce6 !important;
+    }
+    
+    /*filled icon*/
+    .icon-best_fill,
+    .icon-hot_fill,
+    .icon-new_fill,
+    .icon-top_fill,
+    .icon-upvote_fill,
+    ._1rZYMD_4xY3gRcSS3p8ODO._3a2ZHWaih05DgAOtvu6cIo {
+        color:#f3bce6 !important;
+    }
+    
+    ._3SUsITjKNQ7Tp0Wi2jGxIM._3edNsMs0PNfyQYofMNVhsG:hover {
+        color:#f3bce6 !important;
+    } 
+    
+    /*scrollbar*/
+    ::-webkit-scrollbar {
+        background-color: #1d1d1d;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #000;
+    }
+
+    /*post left padding*/
+    ._1oQyIsiPHYt6nx7VOmd1sz._1RYN-7H8gYctjOQeL8p2Q7.scrollerItem._3Qkp11fjcAw9I9wtLo8frE._1qftyZQ2bhqP62lbPjoGAh {
+        background-image: linear-gradient(#131020 20%, #c29df1);
+    }
+
+    /*polls input*/
+    input[type="radio"] {
+        background-color: #000011;
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+        height: 15px;
+        margin-right: 15px;
+        width: 15px;
+        -webkit-appearance: none;
+    }
+
+    input[type="radio"]:after {
+        background-color: #444;
+        border-radius: 25px;
+        content: '';
+        display: block;
+        height: 7px;
+        left: 4px;
+        position: relative;
+        top: 4px;
+        width: 7px;
+    }
+
+    input[type="radio"]:checked:after{
+        background-color: #c29df1 !important;
+    }
+
+    /*comment-threadlines*/
+    ._36AIN2ppxy_z-XSDxTvYj5 > .threadline {
+        border-right: 2px #c29df1 solid;
+    }
+
+    .undefined > .threadline {
+        border-right: 2px #f3bce6 solid;
+    }
